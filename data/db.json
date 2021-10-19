@@ -1,0 +1,18 @@
+{
+    "experiences" : [
+        {"id" : 1, "title": "Ecommerce Application: Gadgetpedia", "detail" : "Gadgetpedia is an online store that sells various kinds of gadgets. This website is built using PHP and MySQL as the core language. This website was built to complete the final project of the advanced database course. The main features on this website are register, login, admin area, payments that are integrated with PayPal and more. this website is deployed to alibabacloud.com", "img" : "detail-products.png"},
+        {"id" : 2, "title": "IPRY Komisariat kuansing", "detail" : "IPRY Komisariat Kuansing is a student organization from Kuantan Singing under the auspices of the IPRY Center based in Yogyakarta. This website was built to display news, events, and books contained in the organization. with the hope that the IPRY Komisariat Kuansing can exist on the internet. I made this website using Javascript and bootstrap.", "img" : "ipry-kuansing.png"},
+        {"id" : 3, "title" : "Blog", "detail" : "This is a blog website that allows anyone to write content on it. built using Laravel and bootstrap. This website is equipped with a login page, register, and a place to write. It is hoped that with this website, it can enrich literature in Indonesia.", "img" : "blog.png"},
+        {"id" : 4, "title" : "Happy Birthday!!!", "detail" : "Wish someone special happy birthday in a special way. It was a birthday of one of my friend and I wanted to wish her in a special way. So I put together this animated web page real quick to say Happy Birthday.", "img" : "birthday-app.png"}
+    ],
+    "skills": [
+        {"id" : 1, "title" : "PHP", "class" : "w-85 bg-php", "avg" : 85},
+        {"id" : 2, "title" : "MySQL", "class" : "w-80 bg-mysql", "avg" : 80},
+        {"id" : 3, "title" : "Laravel", "class" : "w-90 bg-laravel", "avg" : 90},
+        {"id" : 4, "title" : "Vue JS", "class" : "w-85 bg-vue", "avg" : 85},
+        {"id" : 5, "title" : "Bootstrap", "class" : "w-80 bg-bootstrap", "avg" : 80},
+        {"id" : 6, "title" : "Tailwind", "class" : "w-90 bg-tailwind", "avg" : 90},
+        {"id" : 7, "title" : "React JS", "class" : "w-80 bg-react", "avg" : 80},
+        {"id" : 8, "title" : "Node JS", "class" : "w-80 bg-node", "avg" : 80}
+    ]
+}
