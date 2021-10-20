@@ -12,7 +12,7 @@ Dibuat menggunakan Vue JS sebagai frontend dan bootstrap untuk menghias halamann
 
 Untuk Menjalankan website ini di komputer anda, ikuti langkah-langkah berikut:
 - **Fork** repositori ini, kemudian masuklah kedalam repository hasil fork tadi.
-- Clone repositori ini dengan perintah `git clone https://github.com/Galangaidil/spa-cv.git`. semisalnya anda tidak menginstall git, coba download zip nya.
+- Clone repositori ini dengan perintah `git clone https://github.com/<USERNAME>/spa-cv.git`. semisalnya anda tidak menginstall git, coba download zip nya.
 - Buka direktori ini di vs code, kemudian buka terminal bawaannya vs code. pastikan di komputernya telah terinstall Node JS dengan menjalankan perintah `node -v` dan `npm -v`.
 - Install package yang dibutuhkan website ini dengan menjalankan perintah `npm i`
 - Jalankan json-server dengan perintah `npx json-server --watch data/db.json`
