@@ -20,6 +20,8 @@ Ini adalah instruksi untuk menjalankan website SPA-CV secara lokal di komputer a
 
 ### Prerequisites
 
+Beberapa aplikasi yang dibutuhkan untuk bisa menjalankan website ini.
+
 * Pastikan di komputer anda telah terinstall NodeJS.
   ```sh
   node -v
@@ -36,28 +38,28 @@ Ini adalah instruksi untuk menjalankan website SPA-CV secara lokal di komputer a
 
 ### Installation
 
-- **Fork** repositori ini, kemudian masuklah kedalam repository hasil fork.
-- Buka terminal dan Clone repositori ini dengan perintah:
+1. **Fork** repositori ini, kemudian masuklah kedalam repository hasil fork.
+2. Buka terminal dan Clone repositori ini dengan perintah:
     ```sh
     git clone https://github.com/<USERNAME>/spa-cv.git
     cd spa-cv
     ```
-- Install package yang dibutuhkan website ini dengan menjalankan perintah:
+3. Install package yang dibutuhkan website ini dengan menjalankan perintah:
   ```sh
   npm i
   ```
-- Jalankan json-server dengan perintah:
+4. Jalankan json-server dengan perintah:
   ```sh
   npx json-server --watch data/db.json
   ```
   Data yang ada didalam file db.json ini sangat dibutuhkan oleh aplikasi agar bisa berjalan dengan baik. Karena aplikasi ini akan melakukan **API request** ke url yang diberikan package json-server untuk bisa menampilkan data.
-- Terakhir, **bukalah terminal baru**, lalu jalankan development server dengan mengetikkan perintah:
+5. Terakhir, **bukalah terminal baru**, lalu jalankan development server dengan mengetikkan perintah:
   ```sh
   npm run dev
   ```
   Buka browser, ketikkan alamat [http://localhost:3001/](http://localhost:3001/)
 
-# Kontak
+## Kontak
 
 - Twitter: [@galangaidilakbr](https://twitter.com/galangaidilakbr)
 
