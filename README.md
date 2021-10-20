@@ -52,12 +52,11 @@ Beberapa aplikasi yang dibutuhkan untuk bisa menjalankan website ini.
     ```sh
     npx json-server --watch data/db.json
     ```
-    Data yang ada didalam file db.json ini sangat dibutuhkan oleh aplikasi agar bisa berjalan dengan baik. Karena aplikasi ini akan melakukan **API request** ke url yang diberikan package json-server untuk bisa menampilkan data.
-5.  Terakhir, **bukalah terminal baru**, lalu jalankan development server dengan mengetikkan perintah:
+5.  Terakhir, **bukalah terminal baru**, lalu jalankan development servernya dengan mengetikkan perintah:
     ```sh
     npm run dev
     ```
-    Buka browser, ketikkan alamat [http://localhost:3001/](http://localhost:3001/)
+    Sekarang website ini tersedia di [http://localhost:3001/](http://localhost:3001/)
 
 ## Kontak
 
